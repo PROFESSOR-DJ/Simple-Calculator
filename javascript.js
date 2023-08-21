@@ -7,18 +7,18 @@ function add(){
 function sub(){
     let c = Number(document.getElementById('n1').value);
     let d = Number(document.getElementById('n2').value);
-    let ans = c+d;
+    let ans = c-d;
     document.getElementById('ans').value=ans;
 }
 function mul(){
     let e = Number(document.getElementById('n1').value);
     let f = Number(document.getElementById('n2').value);
-    let ans = e+f;
+    let ans = e*f;
     document.getElementById('ans').value=ans;
 }
 function div(){
     let g = Number(document.getElementById('n1').value);
     let h = Number(document.getElementById('n2').value);
-    let ans = g+h;
+    let ans = g/h;
     document.getElementById('ans').value=ans;
 }
